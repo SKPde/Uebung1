@@ -3,10 +3,9 @@ public class Hauptprogramm {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("Hallo Welt");
-		for(int x = 0; x <= 10; x++) {
-			System.out.println(x);
-		}
+		int[] zahlenmenge = {44,56,4,23,34,5,7,9,123,78};
+		
+		
 	}
 
 }
