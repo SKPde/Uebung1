@@ -9,11 +9,13 @@ public class Hauptprogramm {
 		double[] zahlenmenge = {44,56,4,23,34,5,7,9,123,78};
 		double summe = 0;
 		
-		for(int x = 0; x < zahlenmenge.length; x++) {
+		for(int x = 0; x < zahlenmenge.length; x++) { // Summe der Zahlenmenge bilden
 			summe += zahlenmenge[x];
 		}
 		
-		System.out.println(summe);
+		for(int x = 0; x < zahlenmenge.length; x++) { // Jede Zahl der Menge durch Summe teilen und ersetzen
+			zahlenmenge[x] /= summe;
+		}
 	}
 
 }
